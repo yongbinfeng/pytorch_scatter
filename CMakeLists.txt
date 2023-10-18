@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 project(torchscatter)
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 set(TORCHSCATTER_VERSION 2.1.2)
 
 option(WITH_CUDA "Enable CUDA support" OFF)
